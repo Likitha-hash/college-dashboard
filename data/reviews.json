@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "collegeId": 2,
+        "collegeName": "XYZ Institute of Technology",
+        "rating": 5,
+        "comment": "Great infrastructure and helpful faculty. The placement cell is also very active.",
+        "author": "Anjali S.",
+        "date": "2025-10-26"
+    },
+    {
+        "id": 2,
+        "collegeId": 1,
+        "collegeName": "ABC Engineering College",
+        "rating": 4,
+        "comment": "Good academics, the fee is reasonable, but the campus is a bit small.",
+        "author": "Rohan M.",
+        "date": "2025-10-24"
+    }
+]

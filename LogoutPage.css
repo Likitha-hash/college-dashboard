@@ -1,0 +1,17 @@
+.logout-container {
+    text-align: center;
+    padding: 5rem;
+    background-color: var(--card-background-color);
+    border-radius: 12px;
+    margin-top: 3rem;
+}
+
+.logout-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.logout-container p {
+    font-size: 1.2rem;
+    color: var(--text-secondary-color);
+}

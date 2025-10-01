@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "ABC Engineering College",
+        "location": "Hyderabad",
+        "course": "Computer Science",
+        "fee": 120000,
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "XYZ Institute of Technology",
+        "location": "Bangalore",
+        "course": "Electronics",
+        "fee": 100000,
+        "rating": 4.2
+    },
+    {
+        "id": 3,
+        "name": "Sunrise Business School",
+        "location": "Chennai",
+        "course": "MBA",
+        "fee": 150000,
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "name": "Greenfield Medical College",
+        "location": "Hyderabad",
+        "course": "MBBS",
+        "fee": 250000,
+        "rating": 4.6
+    },
+    {
+        "id": 5,
+        "name": "Oceanview Arts Academy",
+        "location": "Chennai",
+        "course": "Computer Science",
+        "fee": 95000,
+        "rating": 4.1
+    },
+    {
+        "id": 6,
+        "name": "Innovate Institute of Science",
+        "location": "Bangalore",
+        "course": "MBA",
+        "fee": 180000,
+        "rating": 4.7
+    }
+]

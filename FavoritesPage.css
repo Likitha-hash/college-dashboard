@@ -1,0 +1,127 @@
+.favorites-page-container {
+    width: 100%;
+}
+
+.favorites-page-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.favorites-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.favorite-item {
+    position: relative;
+}
+
+.remove-favorite-btn {
+    width: calc(100% - 3rem);
+    /* Match padding of card */
+    position: absolute;
+    bottom: 1.5rem;
+    /* Match padding of card */
+    left: 1.5rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(10px);
+}
+
+.favorite-item:hover .remove-favorite-btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.favorite-item:hover .favorite-button {
+    /* Hide the original "Add to Favorites" button on hover */
+    display: none;
+}
+
+.no-favorites-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-secondary-color);
+    padding: 3rem;
+    background-color: var(--card-background-color);
+    border-radius: 12px;
+}
+
+.favorites-page-container {
+    width: 100%;
+}
+
+.favorites-page-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.favorites-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+/* This container ensures the hover effect works on the whole card area */
+.favorite-item {
+    position: relative;
+    /* This makes the remove button overlay the card's original button */
+    isolation: isolate;
+}
+
+.remove-favorite-btn {
+    width: calc(100% - 3rem);
+    /* Match padding of card */
+    position: absolute;
+    bottom: 1.5rem;
+    /* Match padding of card */
+    left: 1.5rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(10px);
+    z-index: 1;
+    /* Ensure it's on top of the card's footer */
+}
+
+/* On hover, show the remove button */
+.favorite-item:hover .remove-favorite-btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* --- NEW AND IMPROVED STYLES FOR EMPTY STATE --- */
+.no-favorites-container {
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--card-background-color);
+    border-radius: 12px;
+    border: 1px dashed var(--border-color);
+}
+
+.no-favorites-message {
+    font-size: 1.5rem;
+    color: var(--text-primary-color);
+    font-weight: 500;
+}
+
+.no-favorites-submessage {
+    font-size: 1.1rem;
+    color: var(--text-secondary-color);
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,40 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 120px);
+    /* Full height minus navbar and padding */
+}
+
+.home-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary-color);
+}
+
+.home-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary-color);
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.home-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.4);
+}
+
+.home-button:hover {
+    background-color: var(--primary-hover-color);
+    transform: translateY(-2px);
+}

@@ -1,0 +1,5 @@
+.main-content {
+  padding: 80px 2rem 2rem; /* 80px top padding to offset the fixed navbar */
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,93 @@
+.college-card {
+    background-color: var(--card-background-color);
+    border-radius: 12px;
+    box-shadow: 0 4px Dpx var(--shadow-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.college-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px var(--shadow-color);
+}
+
+.card-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.college-name {
+    font-size: 1.25rem;
+    color: var(--text-primary-color);
+    margin: 0;
+}
+
+.college-location {
+    font-size: 0.9rem;
+    color: var(--text-secondary-color);
+    margin-top: 0.25rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+}
+
+.card-info {
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary-color);
+}
+
+.card-info strong {
+    color: var(--text-primary-color);
+}
+
+.card-info .fee {
+    font-weight: bold;
+    color: #28a745;
+    /* Green color for fee */
+}
+
+.card-info .rating {
+    color: var(--star-color);
+    font-size: 1.1rem;
+}
+
+.card-footer {
+    padding: 1rem 1.5rem;
+    background-color: var(--background-color);
+    border-top: 1px solid var(--border-color);
+}
+
+.favorite-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.favorite-button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.favorite-button.favorited {
+    background-color: #28a745;
+    /* Green background */
+    color: #fff;
+    /* White text */
+    border-color: #28a745;
+    /* Matching green border */
+    cursor: not-allowed;
+    /* Change cursor to indicate it's not clickable */
+}
